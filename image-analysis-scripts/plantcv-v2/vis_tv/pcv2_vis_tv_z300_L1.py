@@ -14,7 +14,7 @@ def options():
     parser = argparse.ArgumentParser(description="Imaging processing with opencv")
     parser.add_argument("-i", "--image", help="Input image file.", required=True)
     parser.add_argument("-o", "--outdir", help="Output directory for image files.", required=False)
-    parser.add_argument("-m", "--roi", help="Input region of interest file.", default="/home/mgehan/plantcv/vis_tv/masks/mask_brass_tv_z300_L1.png")
+    parser.add_argument("-m", "--roi", help="Input region of interest file.", default="/home/mgehan/plantcv/masks/vis_tv/mask_brass_tv_z300_L1.png")
     parser.add_argument("-r","--result", help="result file.", required= False )
     parser.add_argument("-r2","--coresult", help="result file.", required= False )
     parser.add_argument("-w","--writeimg", help="write out images.", default=False, action="store_true")
