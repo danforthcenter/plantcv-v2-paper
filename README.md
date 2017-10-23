@@ -20,7 +20,8 @@ Documentation for PlantCV v2.0 can be found at http://plantcv.readthedocs.io/en/
 
 ## Contents
 
-The SQLite database schema for PlantCV v2.0 can be found in the file `database_schema.sql`.
+The SQLite database schema for PlantCV v2 can be found in the file `database_schema.sql` and is documented 
+in the [online documentation](http://plantcv.readthedocs.io/en/latest/output_measurements/).
 
 Image analysis Python scripts and Jupyter notebooks for Figures 2, 3 and 5 can be found in the folder 
 `image-analysis-scripts`.
